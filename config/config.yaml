@@ -1,3 +1,10 @@
 dataset:
   raw_path: data/raw
   processed_path: data/processed
+
+minio:
+  endpoint: localhost:9000
+  access_key: minioadmin
+  secret_key: minioadmin
+  bucket_name: m5-forecasting-bucket
+  secure: false
